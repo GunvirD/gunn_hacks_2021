@@ -4,6 +4,13 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 
 
+
+
+
+
+
+
+
 app.get("/", function(req, res){
   res.sendFile(__dirname + '/main.html');
 });
@@ -17,13 +24,13 @@ app.get("/contact", function(req, res){
 });
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-app.get("/blog-000001-famous-people-that-are-saving-the-world.html", function(req, res)
+app.get("/blog-000001-famous-people-that-are-saving-the-world", function(req, res)
 {
   res.sendFile(__dirname+"/blogs/blog-000001-famous-people-that-are-saving-the-world.html");
 });
-app.get("/blog-000002-.html", function(req, res)
+app.get("/blog-000002-secrets-to-living-longer", function(req, res)
 {
-  res.sendFile(__dirname+"/blogs/blog-000002-.html");
+  res.sendFile(__dirname+"/blogs/blog-000002-secrets-to-living-longer.html");
 });
 app.get("/blog-000003-.html", function(req, res)
 {

@@ -53,6 +53,7 @@ body
 }
 .card
 {
+  min-width: 275px;
   background: #1f2833;
   width: 26% !important;
   font-family: 'Poppins', sans-serif !important;

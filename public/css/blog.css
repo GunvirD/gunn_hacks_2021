@@ -7,6 +7,7 @@
 .btn
 {
   width: 20%;
+  min-width: 155px;
 }
 .card-width
 {
@@ -19,4 +20,8 @@
 .title
 {
   color: #00E3A4;
+}
+
+.container{
+  padding: 50px;
 }

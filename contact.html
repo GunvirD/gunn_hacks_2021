@@ -16,13 +16,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Linking local style sheets -->
     <link rel="stylesheet" type="text/css" href="css/template.css">
-    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
     <!-- Linking Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script -->
 
 
-    <title>About - WoLife</title>
+    <title>Contact us - WoLife</title>
   </head>
 
 
@@ -56,45 +56,42 @@
 
 
       <div class="card card-width">
-
-        <table>
-          <tr>
-            <td style="width:40%">
-              <img src="images/about-us01.svg" class="card-img-top" alt="image">
-            </td>
-
-            <td style="width:60%">
-              <div class="card-body">
-                <h2 class="card-title">About Us</h2>
-                <div class="card-text white">
-                  <p>
-                    ADD THINGS ABOUT WEBSITE HERE Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.lomre
-                  </p>
-                </div>
-
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <!-- ADD MORE INFO HERE (IMAGES AND ETC) -->
-          </tr>
-        </table>
-
-        <!-- YOUTUBE VIDEO -->
-        <div class="youtube_vid">
-          <div class="iframe-video-container">
-           <iframe class="iframe-video  animate__animated animate__slideInLeft"
-             src="https://www.youtube.com/embed/lLqK4tOqsOs" allowfullscreen>
-           </iframe>
-         </div>
+        <div class="title-container">
+          <h1 class="card-title">About Us</h1>
         </div>
 
 
+        <form action="https://formspree.io/f/xpzoeqde" method="POST">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" id="firstName" name="firstName">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" id="lastName" name="lastName">
+            </div>
+          </div>
 
-        <div class="button-container">
-          <a href="/" class="btn btn-outline-info">Return</a>
-        </div>
-      </div>
+
+          <label for="exampleFormControlTextarea1" style="margin-top: 3%;">Your email adress:</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+
+
+          <div class="form-group" style="margin: 3% auto 5%;">
+            <label for="exampleFormControlTextarea1">Write your message:</label>
+            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+          </div>
+
+
+
+          <div class="button-container">
+            <button class="btn btn-outline-info" type="submit">Submit</button>
+          </div>
+        </form>
+
+
+
+
+    </div>
     </section>
 
 
