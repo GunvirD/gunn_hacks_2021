@@ -1,0 +1,14 @@
+.button-container
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.btn
+{
+  width: 20%;
+}
+.card-width
+{
+  width: 80% !important;
+}

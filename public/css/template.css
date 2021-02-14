@@ -112,3 +112,32 @@ body
     width: 100%;
   }
 }
+
+
+/* Footer */
+#footer
+{
+  background: white;
+}
+.container-footer
+{
+  padding: 0rem;
+  text-align: center;
+}
+.icon-footer
+{
+  margin: 2%;
+  color: #00080A;
+}
+.icon-footer:hover
+{
+  margin: 2%;
+  color: #0097BD;
+}
+.footer-copyright
+{
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 40px;
+}
