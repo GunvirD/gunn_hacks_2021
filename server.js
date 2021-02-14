@@ -8,10 +8,13 @@ app.get("/", function(req, res){
   res.sendFile(__dirname + '/main.html');
 });
 
-app.get("/l", function(req, res){
-  res.sendFile(__dirname+"/preloader.html")
+app.get("/about", function(req, res){
+  res.sendFile(__dirname+"/about.html")
 });
 
+app.get("/contact", function(req, res){
+  res.sendFile(__dirname+"/contact.html")
+});
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 app.get("/blog-000001-famous-people-that-are-saving-the-world.html", function(req, res)

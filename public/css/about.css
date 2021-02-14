@@ -1,0 +1,51 @@
+.button-container
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.btn
+{
+  width: 20%;
+}
+.card-width
+{
+  width: 80% !important;
+}
+#middle
+{
+  margin-top: 5% !important;
+}
+.title
+{
+  color: #00E3A4;
+}
+/* ============== */
+.youtube_vid
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto 5%;
+  width:  85%;
+}
+.iframe-video-container
+{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.iframe-video
+{
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
