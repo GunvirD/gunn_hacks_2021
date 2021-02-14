@@ -1,0 +1,15 @@
+body
+{
+  font-family: 'Poppins', sans-serif;
+  background-color: #19171A;
+  color: #04FFC0;
+}
+
+.nav-link
+{
+  color: #04FFC0;
+}
+.nav-link:hover
+{
+  color: #00C68A;
+}
