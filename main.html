@@ -12,23 +12,31 @@
     <!-- Linking local style sheets -->
     <link rel="stylesheet" type="text/css" href="css/template.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Linking Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script -->
+
 
     <title>Main - WoLife</title>
   </head>
   <body>
+    <!-- Pre-Loader -->
+    <div class="loader-container">
+      <h1 class="pre-loader" data-text="Wolife">Wolife</h1>
+    </div>
     <!-- Will contain the intro page -->
     <section id="top">
 
       <!-- Navbar -->
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <a class="nav-link active" aria-current="page" href="#">Discover</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
 
@@ -52,6 +60,14 @@
     <section id="footer">
 
     </section>
+
+
+    <script type="text/javascript">
+      $(window).on("load", function(){
+        $(".loader-container").fadeOut("slow");
+      });
+    </script>
+
 
   </body>
 </html>
