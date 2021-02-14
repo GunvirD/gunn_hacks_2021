@@ -92,6 +92,6 @@ app.get("/blog-0000016-.html", function(req, res)
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("System Running on port 3000")
 });
