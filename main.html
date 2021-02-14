@@ -4,6 +4,7 @@
     <meta name="desc" content="Learn how to reduce your carbon footprint and also get a chance at learning new and interesting facts">
     <meta charset="utf-8">
     <!-- Adding Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Adding fonts -->
@@ -19,6 +20,8 @@
 
     <title>Main - WoLife</title>
   </head>
+
+
   <body>
     <!-- Pre-Loader -->
     <div class="loader-container">
@@ -30,7 +33,7 @@
       <!-- Navbar -->
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Discover</a>
+          <a class="nav-link active" aria-current="page" href="#middle">Discover</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
@@ -49,6 +52,37 @@
     <!-- Blogs -->
     <section id="middle">
 
+
+      <div class="card animate__animated animate__fadeInUp" style="width: 18rem;">
+        <img src="images/nature01.svg" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h4 class="card-title">Famous People that are saving the world</h4>
+          <p class="card-text white">Did you know that many people in the world are helping out in making the world a safer place, do you want to know who? Then read more by pressing the button below:</p>
+          <a href="#" class="btn btn-outline-info">Read More</a>
+        </div>
+      </div>
+
+      <div class="card animate__animated animate__fadeInUp" data-aos="fade-up" style="width: 18rem;">
+        <img src="images/nature01.svg" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h4 class="card-title">Famous People that are saving the world</h4>
+          <p class="card-text white">Did you know that many people in the world are helping out in making the world a safer place, do you want to know who? Then read more by pressing the button below:</p>
+          <a href="#" class="btn btn-outline-info">Read More</a>
+        </div>
+      </div>
+
+      <div class="card animate__animated animate__fadeInUp" style="width: 18rem;">
+        <img src="images/nature01.svg" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h4 class="card-title">Famous People that are saving the world</h4>
+          <p class="card-text white">Did you know that many people in the world are helping out in making the world a safer place, do you want to know who? Then read more by pressing the button below:</p>
+          <a href="#" class="btn btn-outline-info">Read More</a>
+        </div>
+      </div>
+
+
+
+
     </section>
 
     <!-- Sponsors -->
@@ -66,7 +100,11 @@
       $(window).on("load", function(){
         $(".loader-container").fadeOut("slow");
       });
+      $(document).ready(function(){
+          $(this).scrollTop(0);
+      });
     </script>
+
 
 
   </body>
